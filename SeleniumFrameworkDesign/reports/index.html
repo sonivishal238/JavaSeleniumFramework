@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Web automation results</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Oct 7, 2023 04:33:22 pm</span></a>
+<a href="#"><span class="badge badge-primary">Oct 7, 2023 04:51:30 pm</span></a>
 </li>
 </ul>
 </div>
@@ -80,14 +80,41 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductErrorValidation</p>
+            <p class="text-sm">
+              <span>4:51:42 pm</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ProductErrorValidation</h5>
+<span class='badge badge-success'>10.07.2023 4:51:42 pm</span>
+<span class='badge badge-danger'>10.07.2023 4:51:42 pm</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">SubmitOrder</p>
             <p class="text-sm">
-              <span>4:33:43 pm</span> / <span>00:00:13:229</span>
+              <span>4:51:42 pm</span> / <span>00:00:12:046</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -96,17 +123,17 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">SubmitOrder</h5>
-<span class='badge badge-success'>10.07.2023 4:33:43 pm</span>
-<span class='badge badge-danger'>10.07.2023 4:33:56 pm</span>
-<span class='badge badge-default'>00:00:13:229</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-success'>10.07.2023 4:51:42 pm</span>
+<span class='badge badge-danger'>10.07.2023 4:51:54 pm</span>
+<span class='badge badge-default'>00:00:12:046</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\VishalSoniLearning\MyRepos\JavaSeleniumFramework\SeleniumFrameworkDesign\reports\SubmitOrder.png' src="D:\VishalSoniLearning\MyRepos\JavaSeleniumFramework\SeleniumFrameworkDesign\reports\SubmitOrder.png">
+<img data-featherlight='D:\VishalSoniLearning\Java\JavaSeleniumFramework\SeleniumFrameworkDesign\reports\SubmitOrder.png' src="D:\VishalSoniLearning\Java\JavaSeleniumFramework\SeleniumFrameworkDesign\reports\SubmitOrder.png">
     <div class="title">SubmitOrder</div>
     </div></div>
 <div class="detail-body mt-4">
@@ -114,18 +141,25 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:33:55 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:51:53 pm</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1088, 759)
+          Test passed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:51:54 pm</td>
+        <td>
+          <textarea readonly class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1088, 784)
   (Session info: chrome=117.0.5938.134)
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [812441fddf61462a62ca0e7b5b02497e, clickElement {id=E1C27BBEF9DFCDE65DE658C6D62F6B7B_element_104}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\VISHAL~1.SON\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56962/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (812441fddf61462a62ca0e7b5b02497e)] -> css selector: .totalRow button]
-Session ID: 812441fddf61462a62ca0e7b5b02497e
+Command: [957e17aa9978d5524b53151ba4ce6083, clickElement {id=1B6E655DC92C31F7E1911D599CFC647F_element_368}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\VISHAL~1.SON\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57513/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (957e17aa9978d5524b53151ba4ce6083)] -> css selector: .totalRow button]
+Session ID: 957e17aa9978d5524b53151ba4ce6083
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -179,47 +213,6 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">ProductErrorValidation</p>
-            <p class="text-sm">
-              <span>4:33:43 pm</span> / <span>00:00:11:013</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">ProductErrorValidation</h5>
-<span class='badge badge-success'>10.07.2023 4:33:43 pm</span>
-<span class='badge badge-danger'>10.07.2023 4:33:54 pm</span>
-<span class='badge badge-default'>00:00:11:013</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:33:54 pm</td>
-        <td>
-          Test passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
         <li class="test-item"  status="pass" test-id="3"
           author=""
           tag=""
@@ -227,7 +220,7 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
           <div class="test-detail">
             <p class="name">incorrectCredentialsLoginTest</p>
             <p class="text-sm">
-              <span>4:34:07 pm</span> / <span>00:00:01:679</span>
+              <span>4:52:00 pm</span> / <span>00:00:02:779</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -236,9 +229,9 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">incorrectCredentialsLoginTest</h5>
-<span class='badge badge-success'>10.07.2023 4:34:07 pm</span>
-<span class='badge badge-danger'>10.07.2023 4:34:09 pm</span>
-<span class='badge badge-default'>00:00:01:679</span>
+<span class='badge badge-success'>10.07.2023 4:52:00 pm</span>
+<span class='badge badge-danger'>10.07.2023 4:52:03 pm</span>
+<span class='badge badge-default'>00:00:02:779</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -251,7 +244,7 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:34:09 pm</td>
+        <td>4:52:03 pm</td>
         <td>
           incorrectCredentialsLoginTest Test skipped.
         </td>
@@ -268,7 +261,7 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
           <div class="test-detail">
             <p class="name">SubmitOrder</p>
             <p class="text-sm">
-              <span>4:34:10 pm</span> / <span>00:00:00:000</span>
+              <span>4:52:05 pm</span> / <span>00:00:00:000</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -277,8 +270,8 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">SubmitOrder</h5>
-<span class='badge badge-success'>10.07.2023 4:34:10 pm</span>
-<span class='badge badge-danger'>10.07.2023 4:34:10 pm</span>
+<span class='badge badge-success'>10.07.2023 4:52:05 pm</span>
+<span class='badge badge-danger'>10.07.2023 4:52:05 pm</span>
 <span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
@@ -295,7 +288,7 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
           <div class="test-detail">
             <p class="name">incorrectCredentialsLoginTest</p>
             <p class="text-sm">
-              <span>4:34:21 pm</span> / <span>00:00:02:087</span>
+              <span>4:52:14 pm</span> / <span>00:00:02:777</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -304,9 +297,9 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">incorrectCredentialsLoginTest</h5>
-<span class='badge badge-success'>10.07.2023 4:34:21 pm</span>
-<span class='badge badge-danger'>10.07.2023 4:34:23 pm</span>
-<span class='badge badge-default'>00:00:02:087</span>
+<span class='badge badge-success'>10.07.2023 4:52:14 pm</span>
+<span class='badge badge-danger'>10.07.2023 4:52:17 pm</span>
+<span class='badge badge-default'>00:00:02:777</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -314,7 +307,7 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\VishalSoniLearning\MyRepos\JavaSeleniumFramework\SeleniumFrameworkDesign\reports\incorrectCredentialsLoginTest.png' src="D:\VishalSoniLearning\MyRepos\JavaSeleniumFramework\SeleniumFrameworkDesign\reports\incorrectCredentialsLoginTest.png">
+<img data-featherlight='D:\VishalSoniLearning\Java\JavaSeleniumFramework\SeleniumFrameworkDesign\reports\incorrectCredentialsLoginTest.png' src="D:\VishalSoniLearning\Java\JavaSeleniumFramework\SeleniumFrameworkDesign\reports\incorrectCredentialsLoginTest.png">
     <div class="title">incorrectCredentialsLoginTest</div>
     </div></div>
 <div class="detail-body mt-4">
@@ -322,15 +315,8 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:34:22 pm</td>
-        <td>
-          Test passed.
-        </td>
-      </tr>
-      <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:34:22 pm</td>
+        <td>4:52:15 pm</td>
         <td>
           <textarea readonly class="code-block">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password will fail.]
 	at org.testng.Assert.fail(Assert.java:111)
@@ -366,6 +352,13 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
           
         </td>
       </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:52:17 pm</td>
+        <td>
+          Test passed.
+        </td>
+      </tr>
   </tbody>
 </table>
 </div>
@@ -378,7 +371,7 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
           <div class="test-detail">
             <p class="name">OrderHistoryTest</p>
             <p class="text-sm">
-              <span>4:34:23 pm</span> / <span>00:00:00:000</span>
+              <span>4:52:18 pm</span> / <span>00:00:00:001</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -387,9 +380,9 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">OrderHistoryTest</h5>
-<span class='badge badge-success'>10.07.2023 4:34:23 pm</span>
-<span class='badge badge-danger'>10.07.2023 4:34:23 pm</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<span class='badge badge-success'>10.07.2023 4:52:18 pm</span>
+<span class='badge badge-danger'>10.07.2023 4:52:18 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -402,7 +395,7 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:34:23 pm</td>
+        <td>4:52:18 pm</td>
         <td>
           OrderHistoryTest Test skipped.
         </td>
@@ -434,39 +427,6 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>16:33:43 pm</td>
-<td>
-<a href="#" class="linked" test-id='1' id='1'>SubmitOrder</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
 <p class="name">java.lang.AssertionError</p>
 <p class="duration text-sm">1 tests</p>
 </div>
@@ -486,9 +446,42 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>16:34:21 pm</td>
+<td>16:52:14 pm</td>
 <td>
 <a href="#" class="linked" test-id='5' id='5'>incorrectCredentialsLoginTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:51:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>SubmitOrder</a>
 </td>
 </tr>
 </tbody>
@@ -508,13 +501,13 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Oct 7, 2023 04:33:22 pm</h3>
+<h3>Oct 7, 2023 04:51:30 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Oct 7, 2023 04:34:24 pm</h3>
+<h3>Oct 7, 2023 04:52:18 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -584,7 +577,7 @@ Session ID: 812441fddf61462a62ca0e7b5b02497e
 </div></div>
 <script>
 var timeline = {
-"SubmitOrder":13.229,"ProductErrorValidation":11.013,"incorrectCredentialsLoginTest":1.679,"SubmitOrder":0,"incorrectCredentialsLoginTest":2.087,"OrderHistoryTest":0
+"ProductErrorValidation":0,"SubmitOrder":12.046,"incorrectCredentialsLoginTest":2.779,"SubmitOrder":0,"incorrectCredentialsLoginTest":2.777,"OrderHistoryTest":0.001
 };
 </script>
 <div class="row">
