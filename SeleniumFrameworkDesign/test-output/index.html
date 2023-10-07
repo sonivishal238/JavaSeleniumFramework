@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,  2 skipped,  2 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,  2 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="e2etests.SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrder({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com})">SubmitOrder({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="e2etests.ErrorValidationTest" class="method navigator-link" hash-for-method="ProductErrorValidation">ProductErrorValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="e2etests.SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrder({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com})">SubmitOrder({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -150,12 +155,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="e2etests.ErrorValidationTest" class="method navigator-link" hash-for-method="ProductErrorValidation">ProductErrorValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="e2etests.SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrder({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com})">SubmitOrder({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="e2etests.SubmitOrderTest" class="method navigator-link" hash-for-method="SubmitOrder({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com})">SubmitOrder({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -173,48 +173,24 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">e2etests.ErrorValidationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="incorrectCredentialsLoginTest">
-                  </a> <!-- incorrectCredentialsLoginTest -->
-                  <span class="method-name">incorrectCredentialsLoginTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password will fail.]
-	at e2etests.ErrorValidationTest.incorrectCredentialsLoginTest(ErrorValidationTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 23 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">e2etests.SubmitOrderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SubmitOrder({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com})">
-                  </a> <!-- SubmitOrder({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com}) -->
+                  <a name="SubmitOrder({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com})">
+                  </a> <!-- SubmitOrder({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com}) -->
                   <span class="method-name">SubmitOrder</span>
-                  <span class="parameters">({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com})</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1088, 790)
+                  <span class="parameters">({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1085, 635)
   (Session info: chrome=117.0.5938.134)
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e21fcf357b2e8dc5c524125c6e818017, clickElement {id=F111CF9285E69EE8EFA366E65C55A8EB_element_103}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\vishal\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64105}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64105/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e21fcf357b2e8dc5c524125c6e818017)] -&gt; css selector: .totalRow button]
-Session ID: e21fcf357b2e8dc5c524125c6e818017
+Command: [4159a83e50ec4ee211f062d4b229892a, clickElement {id=D56324B4D5786A41B1908C900D86F9DE_element_119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\vishal\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64310}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64310/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4159a83e50ec4ee211f062d4b229892a)] -&gt; css selector: .action__submit]
+Session ID: 4159a83e50ec4ee211f062d4b229892a
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -226,8 +202,8 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-	at pageobjects.CartPage.goToCheckoutPage(CartPage.java:33)
-	at e2etests.SubmitOrderTest.SubmitOrder(SubmitOrderTest.java:34)
+	at pageobjects.CheckoutPage.submitOrder(CheckoutPage.java:42)
+	at e2etests.SubmitOrderTest.SubmitOrder(SubmitOrderTest.java:38)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
@@ -239,6 +215,70 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">e2etests.ErrorValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductErrorValidation">
+                  </a> <!-- ProductErrorValidation -->
+                  <span class="method-name">ProductErrorValidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at e2etests.ErrorValidationTest.ProductErrorValidation(ErrorValidationTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectCredentialsLoginTest">
+                  </a> <!-- incorrectCredentialsLoginTest -->
+                  <span class="method-name">incorrectCredentialsLoginTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password will fail.]
+	at e2etests.ErrorValidationTest.incorrectCredentialsLoginTest(ErrorValidationTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">e2etests.SubmitOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderHistoryTest">
+                  </a> <!-- OrderHistoryTest -->
+                  <span class="method-name">OrderHistoryTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method e2etests.SubmitOrderTest.OrderHistoryTest() on instance e2etests.SubmitOrderTest@2d0399f4 depends on not successfully finished methods 
+[e2etests.SubmitOrderTest.SubmitOrder() on instance e2etests.SubmitOrderTest@2d0399f4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -263,45 +303,6 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">e2etests.SubmitOrderTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="OrderHistoryTest">
-                  </a> <!-- OrderHistoryTest -->
-                  <span class="method-name">OrderHistoryTest</span>
-                  <div class="stack-trace">java.lang.Throwable: Method e2etests.SubmitOrderTest.OrderHistoryTest() on instance e2etests.SubmitOrderTest@3aa078fd depends on not successfully finished methods 
-[e2etests.SubmitOrderTest.SubmitOrder() on instance e2etests.SubmitOrderTest@3aa078fd]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 8 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">e2etests.ErrorValidationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ProductErrorValidation">
-                  </a> <!-- ProductErrorValidation -->
-                  <span class="method-name">ProductErrorValidation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -310,10 +311,10 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SubmitOrder({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com})">
-                  </a> <!-- SubmitOrder({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com}) -->
+                  <a name="SubmitOrder({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com})">
+                  </a> <!-- SubmitOrder({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com}) -->
                   <span class="method-name">SubmitOrder</span>
-                  <span class="parameters">({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com})</span>
+                  <span class="parameters">({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -401,23 +402,23 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SubmitOrder')
 data.setCell(0, 2, 'e2etests.SubmitOrderTest')
-data.setCell(0, 3, 11101);
+data.setCell(0, 3, 11927);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ProductErrorValidation')
-data.setCell(1, 2, 'e2etests.ErrorValidationTest')
-data.setCell(1, 3, 9715);
+data.setCell(1, 1, 'SubmitOrder')
+data.setCell(1, 2, 'e2etests.SubmitOrderTest')
+data.setCell(1, 3, 11458);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'SubmitOrder')
-data.setCell(2, 2, 'e2etests.SubmitOrderTest')
-data.setCell(2, 3, 5542);
+data.setCell(2, 1, 'ProductErrorValidation')
+data.setCell(2, 2, 'e2etests.ErrorValidationTest')
+data.setCell(2, 3, 9572);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'incorrectCredentialsLoginTest')
 data.setCell(3, 2, 'e2etests.ErrorValidationTest')
-data.setCell(3, 3, 1764);
+data.setCell(3, 3, 1122);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'incorrectCredentialsLoginTest')
 data.setCell(4, 2, 'e2etests.ErrorValidationTest')
-data.setCell(4, 3, 615);
+data.setCell(4, 3, 794);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'OrderHistoryTest')
 data.setCell(5, 2, 'e2etests.SubmitOrderTest')
@@ -426,7 +427,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -462,67 +463,69 @@ return data;
               <div class="chronological-class-name">e2etests.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchApplication</span>
-                <span class="method-start">606 ms</span>
+                <span class="method-start">571 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">e2etests.ErrorValidationTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">ProductErrorValidation</span>
-                <span class="method-start">6973 ms</span>
+                <span class="method-start">5879 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">e2etests.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SubmitOrder({password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com})</span>
-                <span class="method-start">7055 ms</span>
+                <span class="method-start">6850 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">e2etests.ErrorValidationTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">Dispose</span>
-                <span class="method-start">16704 ms</span>
+                <span class="method-start">15656 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchApplication</span>
-                <span class="method-start">17115 ms</span>
+                <span class="method-start">15963 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">e2etests.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">Dispose</span>
-                <span class="method-start">18775 ms</span>
+                <span class="method-start">18315 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchApplication</span>
-                <span class="method-start">19524 ms</span>
+                <span class="method-start">18952 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">e2etests.ErrorValidationTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">incorrectCredentialsLoginTest</span>
-                <span class="method-start">21009 ms</span>
+                <span class="method-start">19506 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Dispose</span>
-                <span class="method-start">22788 ms</span>
+                <span class="method-start">20648 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchApplication</span>
-                <span class="method-start">23183 ms</span>
+                <span class="method-start">21801 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">e2etests.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">SubmitOrder({password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com})</span>
-                <span class="method-start">23974 ms</span>
+                <span class="method-start">22463 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -531,18 +534,18 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">incorrectCredentialsLoginTest</span>
-                <span class="method-start">27233 ms</span>
+                <span class="method-start">25465 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Dispose</span>
-                <span class="method-start">28409 ms</span>
+                <span class="method-start">26807 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">e2etests.SubmitOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">Dispose</span>
-                <span class="method-start">29518 ms</span>
+                <span class="method-start">34553 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

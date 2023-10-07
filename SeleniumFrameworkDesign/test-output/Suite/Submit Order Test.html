@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 07 17:51:26 IST 2023</td>
+<td>Started on:</td><td>Sat Oct 07 17:56:02 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>30 seconds (30293 ms)</td>
+<tr><td>Total time:</td><td>34 seconds (34861 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='e2etests.SubmitOrderTest.SubmitOrder()'><b>SubmitOrder</b><br>Test class: e2etests.SubmitOrderTest<br>Parameters: {password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com}</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1088, 790)
+<td title='e2etests.SubmitOrderTest.SubmitOrder()'><b>SubmitOrder</b><br>Test class: e2etests.SubmitOrderTest<br>Parameters: {password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com}</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1085, 635)
   (Session info: chrome=117.0.5938.134)
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e21fcf357b2e8dc5c524125c6e818017, clickElement {id=F111CF9285E69EE8EFA366E65C55A8EB_element_103}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\vishal\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64105}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64105/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e21fcf357b2e8dc5c524125c6e818017)] -&gt; css selector: .totalRow button]
-Session ID: e21fcf357b2e8dc5c524125c6e818017
+Command: [4159a83e50ec4ee211f062d4b229892a, clickElement {id=D56324B4D5786A41B1908C900D86F9DE_element_119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\vishal\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64310}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64310/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4159a83e50ec4ee211f062d4b229892a)] -&gt; css selector: .action__submit]
+Session ID: 4159a83e50ec4ee211f062d4b229892a
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -97,23 +97,23 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-	at pageobjects.CartPage.goToCheckoutPage(CartPage.java:33)
-	at e2etests.SubmitOrderTest.SubmitOrder(SubmitOrderTest.java:34)
+	at pageobjects.CheckoutPage.submitOrder(CheckoutPage.java:42)
+	at e2etests.SubmitOrderTest.SubmitOrder(SubmitOrderTest.java:38)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1437330146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1437330146'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1088, 790)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace444462292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace444462292'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1085, 635)
   (Session info: chrome=117.0.5938.134)
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e21fcf357b2e8dc5c524125c6e818017, clickElement {id=F111CF9285E69EE8EFA366E65C55A8EB_element_103}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\vishal\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64105}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64105/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e21fcf357b2e8dc5c524125c6e818017)] -&gt; css selector: .totalRow button]
-Session ID: e21fcf357b2e8dc5c524125c6e818017
+Command: [4159a83e50ec4ee211f062d4b229892a, clickElement {id=D56324B4D5786A41B1908C900D86F9DE_element_119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\vishal\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64310}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64310/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4159a83e50ec4ee211f062d4b229892a)] -&gt; css selector: .action__submit]
+Session ID: 4159a83e50ec4ee211f062d4b229892a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -134,8 +134,8 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-	at pageobjects.CartPage.goToCheckoutPage(CartPage.java:33)
-	at e2etests.SubmitOrderTest.SubmitOrder(SubmitOrderTest.java:34)
+	at pageobjects.CheckoutPage.submitOrder(CheckoutPage.java:42)
+	at e2etests.SubmitOrderTest.SubmitOrder(SubmitOrderTest.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -160,7 +160,7 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>11</td>
-<td>e2etests.SubmitOrderTest@3aa078fd</td></tr>
+<td>e2etests.SubmitOrderTest@2d0399f4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -171,10 +171,10 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='e2etests.SubmitOrderTest.SubmitOrder()'><b>SubmitOrder</b><br>Test class: e2etests.SubmitOrderTest<br>Parameters: {password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com}</td>
+<td title='e2etests.SubmitOrderTest.SubmitOrder()'><b>SubmitOrder</b><br>Test class: e2etests.SubmitOrderTest<br>Parameters: {password=Test@123, product=IPHONE 13 PRO, userName=vishaltest@test.com}</td>
 <td></td>
-<td>5</td>
-<td>e2etests.SubmitOrderTest@3aa078fd</td></tr>
+<td>11</td>
+<td>e2etests.SubmitOrderTest@2d0399f4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -186,16 +186,16 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
 </tr>
 <tr>
 <td title='e2etests.SubmitOrderTest.OrderHistoryTest()'><b>OrderHistoryTest</b><br>Test class: e2etests.SubmitOrderTest</td>
-<td><div><pre>java.lang.Throwable: Method e2etests.SubmitOrderTest.OrderHistoryTest() on instance e2etests.SubmitOrderTest@3aa078fd depends on not successfully finished methods 
-[e2etests.SubmitOrderTest.SubmitOrder() on instance e2etests.SubmitOrderTest@3aa078fd]
+<td><div><pre>java.lang.Throwable: Method e2etests.SubmitOrderTest.OrderHistoryTest() on instance e2etests.SubmitOrderTest@2d0399f4 depends on not successfully finished methods 
+[e2etests.SubmitOrderTest.SubmitOrder() on instance e2etests.SubmitOrderTest@2d0399f4]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1459633742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1459633742'><pre>java.lang.Throwable: Method e2etests.SubmitOrderTest.OrderHistoryTest() on instance e2etests.SubmitOrderTest@3aa078fd depends on not successfully finished methods 
-[e2etests.SubmitOrderTest.SubmitOrder() on instance e2etests.SubmitOrderTest@3aa078fd]
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1418527137", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1418527137'><pre>java.lang.Throwable: Method e2etests.SubmitOrderTest.OrderHistoryTest() on instance e2etests.SubmitOrderTest@2d0399f4 depends on not successfully finished methods 
+[e2etests.SubmitOrderTest.SubmitOrder() on instance e2etests.SubmitOrderTest@2d0399f4]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -211,7 +211,7 @@ Session ID: e21fcf357b2e8dc5c524125c6e818017
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>0</td>
-<td>e2etests.SubmitOrderTest@3aa078fd</td></tr>
+<td>e2etests.SubmitOrderTest@2d0399f4</td></tr>
 </table><p>
 </body>
 </html>
