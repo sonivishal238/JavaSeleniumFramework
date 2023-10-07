@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="First Suite">
+  <test thread-count="5" name="First test ">
+    <classes>
+      <class name="introduction.FirstTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Priority Demo">
+	  <classes>
+		  <class name="introduction.Attribute_PriorityTest">
+			  <methods>
+				  <exclude name="ExcludeMeTest"></exclude>
+			  </methods>
+		  </class>
+	  </classes>
+  </test>
+  
+  <test name="IncludeMe tag test">
+	  <classes>
+		  <class name="introduction.IncludeOnlyDemo">
+			  <methods>
+				  <include name="includeMe"></include>
+			  </methods>
+		  </class>
+	  </classes>
+  </test>
+  
+  <test name="Regex for filtering demo">
+	  <classes>
+		  <class name="introduction.RegexSuiteForControllingTests">
+			  <methods>
+				  <include name="run.*"></include>
+			  </methods>
+		  </class>
+	  </classes>
+  </test>
+  
+</suite> <!-- Suite -->

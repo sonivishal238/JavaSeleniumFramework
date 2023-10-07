@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="1" total="7" passed="1" failed="3" skipped="1">
+<testng-results retried="1" ignored="1" total="7" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-06T19:21:42 IST" name="Suite" finished-at="2023-10-06T19:22:16 IST" duration-ms="33812">
+  <suite started-at="2023-10-07T16:33:23 IST" name="Suite" finished-at="2023-10-07T16:34:24 IST" duration-ms="61118">
     <groups>
       <group name="ErrorHandling">
         <method signature="ErrorValidationTest.incorrectCredentialsLoginTest()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" name="incorrectCredentialsLoginTest" class="e2etests.ErrorValidationTest"/>
@@ -11,25 +11,25 @@
         <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" name="SubmitOrder" class="e2etests.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2023-10-06T19:21:42 IST" name="Error Validation Test" finished-at="2023-10-06T19:22:13 IST" duration-ms="30708">
+    <test started-at="2023-10-07T16:33:23 IST" name="Error Validation Test" finished-at="2023-10-07T16:34:24 IST" duration-ms="61117">
       <class name="e2etests.ErrorValidationTest">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-06T19:21:42 IST" name="LaunchApplication" finished-at="2023-10-06T19:21:50 IST" duration-ms="8553" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-07T16:33:23 IST" name="LaunchApplication" finished-at="2023-10-07T16:33:43 IST" duration-ms="19719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="ProductErrorValidation()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-06T19:21:50 IST" name="ProductErrorValidation" finished-at="2023-10-06T19:21:59 IST" duration-ms="8647" status="PASS">
+        <test-method signature="ProductErrorValidation()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-07T16:33:43 IST" name="ProductErrorValidation" finished-at="2023-10-07T16:33:54 IST" duration-ms="11005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductErrorValidation -->
-        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-06T19:21:59 IST" name="Dispose" finished-at="2023-10-06T19:21:59 IST" duration-ms="371" status="PASS">
+        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-07T16:33:54 IST" name="Dispose" finished-at="2023-10-07T16:33:55 IST" duration-ms="1450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dispose -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-06T19:21:59 IST" name="LaunchApplication" finished-at="2023-10-06T19:22:04 IST" duration-ms="4074" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-07T16:33:55 IST" name="LaunchApplication" finished-at="2023-10-07T16:34:07 IST" duration-ms="12068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method retried="true" signature="incorrectCredentialsLoginTest()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-06T19:22:04 IST" name="incorrectCredentialsLoginTest" finished-at="2023-10-06T19:22:05 IST" duration-ms="1049" status="SKIP">
+        <test-method retried="true" signature="incorrectCredentialsLoginTest()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-07T16:34:07 IST" name="incorrectCredentialsLoginTest" finished-at="2023-10-07T16:34:09 IST" duration-ms="1681" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or password will fail.]]]>
@@ -71,15 +71,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectCredentialsLoginTest -->
-        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-06T19:22:05 IST" name="Dispose" finished-at="2023-10-06T19:22:05 IST" duration-ms="602" status="PASS">
+        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-07T16:34:09 IST" name="Dispose" finished-at="2023-10-07T16:34:11 IST" duration-ms="1675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dispose -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-06T19:22:05 IST" name="LaunchApplication" finished-at="2023-10-06T19:22:11 IST" duration-ms="5735" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-07T16:34:11 IST" name="LaunchApplication" finished-at="2023-10-07T16:34:21 IST" duration-ms="10176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="incorrectCredentialsLoginTest()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-06T19:22:11 IST" name="incorrectCredentialsLoginTest" finished-at="2023-10-06T19:22:12 IST" duration-ms="1040" status="FAIL">
+        <test-method signature="incorrectCredentialsLoginTest()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-07T16:34:21 IST" name="incorrectCredentialsLoginTest" finished-at="2023-10-07T16:34:22 IST" duration-ms="1299" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or password will fail.]]]>
@@ -121,19 +121,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectCredentialsLoginTest -->
-        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-06T19:22:12 IST" name="Dispose" finished-at="2023-10-06T19:22:13 IST" duration-ms="319" status="PASS">
+        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.ErrorValidationTest@4b86805d]" started-at="2023-10-07T16:34:23 IST" name="Dispose" finished-at="2023-10-07T16:34:24 IST" duration-ms="1072" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dispose -->
       </class> <!-- e2etests.ErrorValidationTest -->
     </test> <!-- Error Validation Test -->
-    <test started-at="2023-10-06T19:21:42 IST" name="Submit Order Test" finished-at="2023-10-06T19:22:16 IST" duration-ms="33812">
+    <test started-at="2023-10-07T16:33:23 IST" name="Submit Order Test" finished-at="2023-10-07T16:34:23 IST" duration-ms="60227">
       <class name="e2etests.SubmitOrderTest">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-06T19:21:42 IST" name="LaunchApplication" finished-at="2023-10-06T19:21:49 IST" duration-ms="7279" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-07T16:33:24 IST" name="LaunchApplication" finished-at="2023-10-07T16:33:43 IST" duration-ms="18803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-06T19:21:49 IST" name="SubmitOrder" data-provider="getData" finished-at="2023-10-06T19:21:58 IST" duration-ms="8860" status="FAIL">
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-07T16:33:43 IST" name="SubmitOrder" data-provider="getData" finished-at="2023-10-07T16:33:55 IST" duration-ms="12893" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -141,83 +141,28 @@ at java.base/java.lang.Thread.run(Thread.java:833)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at e2etests.SubmitOrderTest.SubmitOrder(SubmitOrderTest.java:33)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-06T19:21:58 IST" name="Dispose" finished-at="2023-10-06T19:21:59 IST" duration-ms="319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Dispose -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-06T19:21:59 IST" name="LaunchApplication" finished-at="2023-10-06T19:22:04 IST" duration-ms="5533" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-06T19:22:04 IST" name="SubmitOrder" data-provider="getData" finished-at="2023-10-06T19:22:15 IST" duration-ms="10907" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com}]]>
-              </value>
-            </param>
-          </params>
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (1085, 635)
+              <![CDATA[element click intercepted: Element is not clickable at point (1088, 759)
   (Session info: chrome=117.0.5938.134)
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bc6394e8c63f199f20b7de4776db0c6b, clickElement {id=26985435E301861F4AA760E1659E9CD7_element_475}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\VISHAL~1.SON\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52262/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bc6394e8c63f199f20b7de4776db0c6b)] -> css selector: .action__submit]
-Session ID: bc6394e8c63f199f20b7de4776db0c6b]]>
+Command: [812441fddf61462a62ca0e7b5b02497e, clickElement {id=E1C27BBEF9DFCDE65DE658C6D62F6B7B_element_104}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\VISHAL~1.SON\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56962/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (812441fddf61462a62ca0e7b5b02497e)] -> css selector: .totalRow button]
+Session ID: 812441fddf61462a62ca0e7b5b02497e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1085, 635)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1088, 759)
   (Session info: chrome=117.0.5938.134)
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bc6394e8c63f199f20b7de4776db0c6b, clickElement {id=26985435E301861F4AA760E1659E9CD7_element_475}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\VISHAL~1.SON\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52262/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bc6394e8c63f199f20b7de4776db0c6b)] -> css selector: .action__submit]
-Session ID: bc6394e8c63f199f20b7de4776db0c6b
+Command: [812441fddf61462a62ca0e7b5b02497e, clickElement {id=E1C27BBEF9DFCDE65DE658C6D62F6B7B_element_104}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\VISHAL~1.SON\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56962/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (812441fddf61462a62ca0e7b5b02497e)] -> css selector: .totalRow button]
+Session ID: 812441fddf61462a62ca0e7b5b02497e
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -238,8 +183,8 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at pageobjects.CheckoutPage.submitOrder(CheckoutPage.java:42)
-at e2etests.SubmitOrderTest.SubmitOrder(SubmitOrderTest.java:38)
+at pageobjects.CartPage.goToCheckoutPage(CartPage.java:33)
+at e2etests.SubmitOrderTest.SubmitOrder(SubmitOrderTest.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -268,11 +213,30 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-06T19:22:15 IST" name="Dispose" finished-at="2023-10-06T19:22:16 IST" duration-ms="428" status="PASS">
+        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-07T16:33:56 IST" name="Dispose" finished-at="2023-10-07T16:33:57 IST" duration-ms="1109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dispose -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-06T19:22:16 IST" name="OrderHistoryTest" finished-at="2023-10-06T19:22:16 IST" depends-on-methods="e2etests.SubmitOrderTest.SubmitOrder" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-07T16:33:57 IST" name="LaunchApplication" finished-at="2023-10-07T16:34:10 IST" duration-ms="13063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-07T16:34:10 IST" name="SubmitOrder" data-provider="getData" finished-at="2023-10-07T16:34:22 IST" duration-ms="11957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@123, product=ZARA COAT 3, userName=vishaltest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-07T16:34:22 IST" name="Dispose" finished-at="2023-10-07T16:34:23 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dispose -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:e2etests.SubmitOrderTest@3aa078fd]" started-at="2023-10-07T16:34:23 IST" name="OrderHistoryTest" finished-at="2023-10-07T16:34:23 IST" depends-on-methods="e2etests.SubmitOrderTest.SubmitOrder" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method e2etests.SubmitOrderTest.OrderHistoryTest() on instance e2etests.SubmitOrderTest@3aa078fd depends on not successfully finished methods 

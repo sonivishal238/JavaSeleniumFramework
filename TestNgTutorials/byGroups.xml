@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Second">
+  <test thread-count="5" name="GroupsTest">
+	  <groups>
+		  <run>
+			  <include name="Smoke"/>
+			  <include name="Sanity"></include>
+		  </run>
+	  </groups>
+	  
+	  <!-- Means from the below classes, run all tests under the group defined above-->
+	  <classes>
+		  <class name="introduction.Attribute_GroupsTest"></class>
+		  <class name="annotationslearning.AnnotationsDemo"></class>
+	  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
