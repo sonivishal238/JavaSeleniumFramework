@@ -8,9 +8,8 @@
     <classes>
       <class name="e2etests.ErrorValidationTest">
         <methods>
-          <include name="Dispose"/>
           <include name="LaunchApplication"/>
-          <include name="ProductErrorValidation"/>
+          <include name="Dispose"/>
           <include name="incorrectCredentialsLoginTest"/>
         </methods>
       </class> <!-- e2etests.ErrorValidationTest -->
@@ -20,7 +19,7 @@
     <classes>
       <class name="e2etests.SubmitOrderTest">
         <methods>
-          <include name="SubmitOrder" invocation-numbers="1"/>
+          <include name="SubmitOrder" invocation-numbers="0 1"/>
           <include name="Dispose"/>
           <include name="LaunchApplication"/>
           <include name="OrderHistoryTest"/>
