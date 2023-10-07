@@ -6,13 +6,13 @@
 		<listener class-name="testcomponents.Listeners"/>
 	</listeners>
 	
-  <test thread-count="10" name="Submit Order Test">
+  <test thread-count="5" name="Submit Order Test">
     <classes>
       <class name="e2etests.SubmitOrderTest"/>
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="10" name="Error Validation Test">
+  <test thread-count="5" name="Error Validation Test">
     <classes>
       <class name="e2etests.ErrorValidationTest"/>
     </classes>
