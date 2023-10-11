@@ -2,6 +2,6 @@ package com.emc.entities;
 
 public class Organizer {
 
-	public Long id;
+	public long id;
 	public String name;
 }
