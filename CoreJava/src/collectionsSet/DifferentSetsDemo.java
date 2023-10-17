@@ -1,13 +1,13 @@
-package collectionsSet;
-
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Random;
-import java.util.Set;
-import java.util.TreeSet;
-
-public class DifferentSetsDemo {
-
+//package collectionsSet;
+//
+//import java.util.HashSet;
+//import java.util.LinkedHashSet;
+//import java.util.Random;
+//import java.util.Set;
+//import java.util.TreeSet;
+//
+//public class DifferentSetsDemo {
+//
 //	public static void main(String[] args) {
 //		
 //		// HashSet
@@ -32,4 +32,4 @@ public class DifferentSetsDemo {
 //		System.out.println("Linked Hashset:" + linkedHashSet);
 //		System.out.println("tree set:" + treeSet);
 //	}
-}
+//}
