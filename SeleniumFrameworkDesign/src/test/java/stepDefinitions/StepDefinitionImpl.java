@@ -24,21 +24,21 @@ public class StepDefinitionImpl extends BaseTest{
 	ConfirmationPage confirmationPage;
 	
 	@Given("I landed on the Ecommerce Page")
-	public void I_landed_on_the_Ecpmmerce_page() throws IOException {
+	public void I_landed_on_the_Ecommerce_page() throws IOException {
 		
 		landingPage = LaunchApplication();
 	}
 	
 	// Pay attention to the regex that we are using, starting from ^ and ending with $, and place holders are (.+)
 	@Given("^Logged in with username (.+) and password (.+)$")
-	public void logged_int_username_and_password(String userName, String password) {
+	public void logged_in_with_username_and_password(String userName, String password) {
 		
 		productCatalogue = landingPage.loginApplication(userName, password);
 	}
 	
 	@When("^I add product (.+) to cart$")
 	public void I_add_product_to_cart(String productName) {
-		productCatalogue.addProductToCart("product");
+		productCatalogue.addProductToCart(productName);
 	}
 	
 	@And("^Checkout (.+) and submit the order$")
@@ -55,9 +55,9 @@ public class StepDefinitionImpl extends BaseTest{
 	}
 	
 	@Then("{string} message is displayed on confirmation page.")
-	public void message_is_displayed_on_confirmation_page() {
+	public void message_is_displayed_on_confirmation_page(String message) {
 		String confirmationMessage = confirmationPage.getConfirmationMessage();
-		Assert.assertEquals(confirmationMessage, "THANKYOU FOR THE ORDER.");
+		Assert.assertEquals(confirmationMessage, message);
 		
 		driver.quit();
 	}

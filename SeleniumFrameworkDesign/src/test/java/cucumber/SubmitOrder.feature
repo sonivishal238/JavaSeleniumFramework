@@ -42,5 +42,5 @@ Feature: Purchase the order from Ecommerce website
     Then "THANKYOU FOR THE ORDER." message is displayed on confirmation page.
 
     Examples: 
-      | name  								| password     | product     |
-      | vishaltest2@test.com  |     Test@123 | ZARA COAT 3 |
+      | name  								| password     | productName     |
+      | vishaltest2@test.com  | Test@123     | ZARA COAT 3 		 |
