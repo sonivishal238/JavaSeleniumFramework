@@ -11,7 +11,7 @@ public class BinarySearch {
 	private static boolean isElementPresent(int[] arr, int key) {
 		int left = 0, length = arr.length, right = length-1, mid = left + (right-left)/2;
 		
-		while(left < right) {
+		while(left <= right) {
 			
 			if(arr[mid] == key) {
 				return true;

@@ -1,4 +1,4 @@
-package leetCodeArray;
+package BinarySearchQuestions;
 
 public class PeakInAMountainArray {
 	public int peakIndexInMountainArray(int[] arr) {

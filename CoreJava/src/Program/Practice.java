@@ -1,21 +1,20 @@
 package Program;
-import java.util.Scanner;
-import static java.lang.System.out;
 
 public class Practice {
 
-//	public static void main(String[] args) {
-//
-//	System.out.println("Enter two numbers: ");
-//	Scanner console = new Scanner(System.in);
-//	
-//	int number1 = Integer.parseInt(console.next());
-//	int number2 = Integer.parseInt(console.next());
-//	
-//	out.println("Sum is: " + (number1 + number2));
-//	console.close();
-//	
-//	System.out.println(Math.sqrt(2));
-//	}
+	   // Driver Code
+    public static void main(String[] args)
+    {
+ 
+        // Binary search in sorted matrix
+        int arr[][] = { { 1, 2, 3, 4 },
+                        { 5, 6, 7, 8 },
+                        { 9, 10, 11, 12 } };
+        System.out.println(arr.length);
+        
+        int a = 10;
+        int b  = 20;
+        
+    }
 	
 }
