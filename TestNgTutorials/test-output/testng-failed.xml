@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [params]" guice-stage="DEVELOPMENT">
-  <parameter name="URL" value="testing.com"/>
-  <test thread-count="5" name="params(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="annotationslearning.AnnotationsDemo">
-        <methods>
-          <include name="beforeTheTestFolder"/>
-          <include name="RunAfterSuite"/>
-          <include name="beforeClass"/>
-          <include name="beforeEveryMethod"/>
-          <include name="MultipleParams"/>
-          <include name="AfterTheTestFolder"/>
-          <include name="afterClass"/>
-          <include name="RunBeforeSuite"/>
-          <include name="afterEveryMethod"/>
-        </methods>
-      </class> <!-- annotationslearning.AnnotationsDemo -->
       <class name="introduction.ParameteringTest">
         <methods>
           <include name="test2"/>
+          <include name="test1"/>
         </methods>
       </class> <!-- introduction.ParameteringTest -->
     </classes>
-  </test> <!-- params(failed) -->
-</suite> <!-- Failed suite [params] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

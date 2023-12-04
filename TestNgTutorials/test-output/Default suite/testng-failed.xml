@@ -3,19 +3,6 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="annotationslearning.AnnotationsDemo">
-        <methods>
-          <include name="beforeTheTestFolder"/>
-          <include name="RunAfterSuite"/>
-          <include name="beforeClass"/>
-          <include name="beforeEveryMethod"/>
-          <include name="MultipleParams"/>
-          <include name="AfterTheTestFolder"/>
-          <include name="afterClass"/>
-          <include name="RunBeforeSuite"/>
-          <include name="afterEveryMethod"/>
-        </methods>
-      </class> <!-- annotationslearning.AnnotationsDemo -->
       <class name="introduction.ParameteringTest">
         <methods>
           <include name="test2"/>
