@@ -36,7 +36,7 @@ Feature: Purchase the order from Ecommerce website
 	
 	#Scenario Outline is used when you want to achieve parameterization just like test ng
 	# this is the difference between Scenario Outline and Scenario
-  @tag2
+  @Regression
   Scenario Outline: Positive test of submitting the order
     Given Logged in with username <name> and password <password>
     When I add product <productName> to cart

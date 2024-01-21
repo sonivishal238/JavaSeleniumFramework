@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.testng.Assert;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.But;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -59,6 +60,12 @@ public class StepDefinitionImpl extends BaseTest{
 		String confirmationMessage = confirmationPage.getConfirmationMessage();
 		Assert.assertEquals(confirmationMessage, message);
 		
+		driver.quit();
+	}
+	
+	@But("{string} message is displayed")
+	public void error_message_is_displayed(String message) {
+		Assert.assertEquals("Incorrect email or password.", landingPage.getInvalidCredentialsErrorMessage());
 		driver.quit();
 	}
 }
