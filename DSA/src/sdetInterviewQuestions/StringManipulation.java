@@ -1,4 +1,4 @@
-package interviewquestions;
+package sdetInterviewQuestions;
 
 public class StringManipulation {
 
