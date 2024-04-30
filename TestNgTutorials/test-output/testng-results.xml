@@ -1,101 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-03T19:54:32 IST" name="Default suite" finished-at="2023-12-03T19:54:32 IST" duration-ms="28">
+  <suite started-at="2024-04-30T17:04:07 IST" name="First Suite" finished-at="2024-04-30T17:04:08 IST" duration-ms="571">
     <groups>
     </groups>
-    <test started-at="2023-12-03T19:54:32 IST" name="Default test" finished-at="2023-12-03T19:54:32 IST" duration-ms="28">
-      <class name="introduction.ParameteringTest">
-        <test-method signature="test1(java.lang.String)[pri:0, instance:introduction.ParameteringTest@4ddced80]" started-at="2023-12-03T19:54:32 IST" name="test1" finished-at="2023-12-03T19:54:32 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'URL' is required by @Test on method test1 but has not been marked @Optional or defined
-in C:\Users\vishal.soni\AppData\Local\Temp\testng-eclipse--1217795096\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'URL' is required by @Test on method test1 but has not been marked @Optional or defined
-in C:\Users\vishal.soni\AppData\Local\Temp\testng-eclipse--1217795096\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2024-04-30T17:04:07 IST" name="First test " finished-at="2024-04-30T17:04:08 IST" duration-ms="130">
+      <class name="introduction.FirstTest">
+        <test-method signature="firstTest()[pri:0, instance:introduction.FirstTest@4b14c583]" started-at="2024-04-30T17:04:07 IST" name="firstTest" finished-at="2024-04-30T17:04:08 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2(java.lang.String,java.lang.String)[pri:0, instance:introduction.ParameteringTest@4ddced80]" started-at="2023-12-03T19:54:32 IST" name="test2" finished-at="2023-12-03T19:54:32 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'firstName' is required by @Test on method test2 but has not been marked @Optional or defined
-in C:\Users\vishal.soni\AppData\Local\Temp\testng-eclipse--1217795096\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'firstName' is required by @Test on method test2 but has not been marked @Optional or defined
-in C:\Users\vishal.soni\AppData\Local\Temp\testng-eclipse--1217795096\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- firstTest -->
+      </class> <!-- introduction.FirstTest -->
+    </test> <!-- First test  -->
+    <test started-at="2024-04-30T17:04:08 IST" name="Priority Demo" finished-at="2024-04-30T17:04:08 IST" duration-ms="33">
+      <class name="introduction.Attribute_PriorityTest">
+        <test-method signature="c()[pri:0, instance:introduction.Attribute_PriorityTest@3d74bf60]" started-at="2024-04-30T17:04:08 IST" name="c" finished-at="2024-04-30T17:04:08 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- introduction.ParameteringTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- c -->
+        <test-method signature="b()[pri:0, instance:introduction.Attribute_PriorityTest@3d74bf60]" started-at="2024-04-30T17:04:08 IST" name="b" finished-at="2024-04-30T17:04:08 IST" depends-on-methods="introduction.Attribute_PriorityTest.c" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="a()[pri:0, instance:introduction.Attribute_PriorityTest@3d74bf60]" started-at="2024-04-30T17:04:08 IST" name="a" finished-at="2024-04-30T17:04:08 IST" depends-on-methods="introduction.Attribute_PriorityTest.b" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- introduction.Attribute_PriorityTest -->
+    </test> <!-- Priority Demo -->
+    <test started-at="2024-04-30T17:04:08 IST" name="IncludeMe tag test" finished-at="2024-04-30T17:04:08 IST" duration-ms="11">
+      <class name="introduction.IncludeOnlyDemo">
+        <test-method signature="includeMe()[pri:0, instance:introduction.IncludeOnlyDemo@708f5957]" started-at="2024-04-30T17:04:08 IST" name="includeMe" finished-at="2024-04-30T17:04:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- includeMe -->
+      </class> <!-- introduction.IncludeOnlyDemo -->
+    </test> <!-- IncludeMe tag test -->
+    <test started-at="2024-04-30T17:04:08 IST" name="Regex for filtering demo" finished-at="2024-04-30T17:04:08 IST" duration-ms="20">
+      <class name="introduction.RegexSuiteForControllingTests">
+        <test-method signature="runMe()[pri:0, instance:introduction.RegexSuiteForControllingTests@7193666c]" started-at="2024-04-30T17:04:08 IST" name="runMe" finished-at="2024-04-30T17:04:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runMe -->
+        <test-method signature="runMe2()[pri:0, instance:introduction.RegexSuiteForControllingTests@7193666c]" started-at="2024-04-30T17:04:08 IST" name="runMe2" finished-at="2024-04-30T17:04:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runMe2 -->
+        <test-method signature="runMe3()[pri:0, instance:introduction.RegexSuiteForControllingTests@7193666c]" started-at="2024-04-30T17:04:08 IST" name="runMe3" finished-at="2024-04-30T17:04:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runMe3 -->
+      </class> <!-- introduction.RegexSuiteForControllingTests -->
+    </test> <!-- Regex for filtering demo -->
+  </suite> <!-- First Suite -->
 </testng-results>
