@@ -4,7 +4,7 @@ public class OneStringHasPermutationOfSecond {
 
 	public static void main(String[] args) {
 		
-		System.out.println(checkInclusion("ab", "a"));
+		System.out.println(checkInclusion("ab", "abcdab"));
 	}
 	
 	
