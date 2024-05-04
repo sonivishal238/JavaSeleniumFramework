@@ -7,7 +7,7 @@ public class FindIntersectionOfTwoArrays {
 
 	public static void main(String[] args) {
 		int first[] = {1,2,2,3,3,4,5,6,7};
-		int second[] = {2,3,6,7, 10, 11};
+		int second[] = {2,3,3,6,7, 10, 11};
 		
 		findIntersection(first, second);
 
