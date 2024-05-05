@@ -4,11 +4,11 @@ public class OneStringHasPermutationOfSecond {
 
 	public static void main(String[] args) {
 		
-		System.out.println(checkInclusion("ab", "abcdab"));
+		System.out.println(checkInclusion("ba", "zcdcabd"));
 	}
 	
 	
-	static Boolean checkInclusion(String s1, String s2) {
+	static boolean checkInclusion(String s1, String s2) {
 		
 		char[] c1 = s1.toCharArray();
 		char[] c2 = s2.toCharArray();

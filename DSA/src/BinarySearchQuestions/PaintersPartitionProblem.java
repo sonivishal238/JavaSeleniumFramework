@@ -9,7 +9,7 @@ public class PaintersPartitionProblem {
 		
 		ArrayList<Integer> list = new ArrayList<Integer>(
 				
-				List.of(10, 20, 30, 40));
+				List.of(5,5,5,5));
 		System.out.println("Answer is : " + getValue(list, list.size(), 2));
 	}
 	
@@ -43,22 +43,22 @@ public class PaintersPartitionProblem {
 	
 	private static boolean isPossibleSolution(ArrayList<Integer> list, int size, int noOfPainters, int mid) {
 		
-		int studentCount = 1;
-		int pagesCount = 0;
+		int painterCount = 1;
+		int boardCount = 0;
 		
 		for(int i = 0; i < size; i++) {
-			if(pagesCount+list.get(i) <= mid) {
-				pagesCount+=list.get(i);
+			if(boardCount+list.get(i) <= mid) {
+				boardCount+=list.get(i);
 			}
 			
 			else {
-				studentCount++;
-				if(studentCount > noOfPainters || list.get(i) > mid) {
+				painterCount++;
+				if(painterCount > noOfPainters || list.get(i) > mid) {
 					return false;
 				}
 				
-				pagesCount = 0;
-				pagesCount = list.get(i);
+				boardCount = 0;
+				boardCount = list.get(i);
 			}
 		}
 		return true;
