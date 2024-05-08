@@ -2,46 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-17T21:50:27 IST" name="Default suite" finished-at="2024-01-17T21:50:45 IST" duration-ms="17373">
+  <suite started-at="2024-05-08T18:21:09 IST" name="Default suite" finished-at="2024-05-08T18:21:15 IST" duration-ms="6070">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@9d5509a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.incorrectCredentialsLoginTest()[pri:0, instance:e2etests.ErrorValidationTest@30c15d8b]" name="incorrectCredentialsLoginTest" class="e2etests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
     </groups>
-    <test started-at="2024-01-17T21:50:27 IST" name="Default test" finished-at="2024-01-17T21:50:45 IST" duration-ms="17373">
-      <class name="cucumber.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@9d5509a]" started-at="2024-01-17T21:50:27 IST" name="setUpClass" finished-at="2024-01-17T21:50:28 IST" duration-ms="1060" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@37d28f02]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-05-08T18:21:09 IST" name="Default test" finished-at="2024-05-08T18:21:15 IST" duration-ms="6070">
+      <class name="e2etests.ErrorValidationTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:e2etests.ErrorValidationTest@30c15d8b]" started-at="2024-05-08T18:21:09 IST" name="LaunchApplication" finished-at="2024-05-08T18:21:14 IST" duration-ms="5221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@9d5509a]" started-at="2024-01-17T21:50:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-17T21:50:45 IST" duration-ms="16129" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Negative test for login error validation"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Error Validation"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="incorrectCredentialsLoginTest()[pri:0, instance:e2etests.ErrorValidationTest@30c15d8b]" started-at="2024-05-08T18:21:14 IST" name="incorrectCredentialsLoginTest" finished-at="2024-05-08T18:21:15 IST" duration-ms="462" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@9d5509a]" started-at="2024-01-17T21:50:45 IST" name="tearDownClass" finished-at="2024-01-17T21:50:45 IST" duration-ms="100" status="PASS">
+        </test-method> <!-- incorrectCredentialsLoginTest -->
+        <test-method is-config="true" signature="Dispose()[pri:0, instance:e2etests.ErrorValidationTest@30c15d8b]" started-at="2024-05-08T18:21:15 IST" name="Dispose" finished-at="2024-05-08T18:21:15 IST" duration-ms="336" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumber.TestNGTestRunner -->
+        </test-method> <!-- Dispose -->
+      </class> <!-- e2etests.ErrorValidationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

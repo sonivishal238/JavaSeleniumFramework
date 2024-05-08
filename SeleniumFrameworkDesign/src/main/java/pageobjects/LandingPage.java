@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import abstractcomponents.AbstractComponent;
+import abstractcomponents.TestConfigManager;
 
 public class LandingPage extends AbstractComponent {
 
@@ -40,7 +41,7 @@ public class LandingPage extends AbstractComponent {
 	WebElement errorMessage;
 	
 	public void goTo() {
-		driver.get("https://rahulshettyacademy.com/client");
+		driver.get(TestConfigManager.baseUrl);
 	}
 	
 	public String getInvalidCredentialsErrorMessage() {
