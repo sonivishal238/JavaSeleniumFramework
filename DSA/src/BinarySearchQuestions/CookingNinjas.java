@@ -35,23 +35,28 @@ public class CookingNinjas {
     private static boolean isPossibleSolution(ArrayList<Integer> ranks, int noOfDishes, int mid) {
         int totalDishes = 0;
         
+        // Iterate through each cook's rank
         for (int rank : ranks) {
-            int time = 0;
-            int dishes = 0;
-            int increment = rank;
+            int time = 0;  // Time taken by the current cook
+            int dishes = 0;  // Number of dishes prepared by the current cook
+            int increment = rank;  // Time increment for the next dish
             
+            // Calculate the number of dishes this cook can prepare within `mid` minutes
             while (time + increment <= mid) {
                 dishes++;
-                time += increment;
-                increment += rank;
+                time += increment;  // Update the total time
+                increment += rank;  // Update the time required for the next dish
             }
             
+            // Add the dishes prepared by this cook to the total count
             totalDishes += dishes;
+            // If the total dishes prepared meets or exceeds the required number of dishes, return true
             if (totalDishes >= noOfDishes) {
                 return true;
             }
         }
         
+        // After checking all cooks, return whether the total dishes prepared is sufficient
         return totalDishes >= noOfDishes;
     }
 
